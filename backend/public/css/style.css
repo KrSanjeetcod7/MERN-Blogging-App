@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  height: 100%;
+}
+.bgimg {
+  background-image: url(https://images.pexels.com/photos/6469/red-hands-woman-creative.jpg?crop=entropy&cs=srgb&dl=pexels-kaboompics-com-6469.jpg&fit=crop&fm=jpg&h=2584&w=3876);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 540px;
+}
+
+.headerset {
+  padding-top: 140px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(56, 56, 55);
+}
+
+.headerset h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.headerset h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn {
+  margin-top: 55px;
+  border-radius: 14px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: darkcyan;
+  color: black;
+  cursor: pointer;
+  border-radius: 35px;
+}
+.register_img {
+  background-image: url(https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?crop=entropy&cs=srgb&dl=pexels-picjumbocom-461077.jpg&fit=crop&fm=jpg&h=1280&w=1920);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 540px;
+}
